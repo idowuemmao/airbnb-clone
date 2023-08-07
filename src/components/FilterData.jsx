@@ -31,51 +31,51 @@ const FilterIcons = [
         title: "Barns",
         icon: AIRBNBicons.barns
     },
-    // {
-    //     id:7,
-    //     title: "Beach",
-    //     icon: AIRBNBicons.beach
-    // },
-    // {
-    //     id:8,
-    //     title: "Beach Front",
-    //     icon: AIRBNBicons.beachFront
-    // },
-    // {
-    //     id:9,
-    //     title: "Bed Breakfasts",
-    //     icon: AIRBNBicons.bedBreakfasts
-    // },
-    // {
-    //     id:10,
-    //     title: "Boats",
-    //     icon: AIRBNBicons.boats
-    // },
-    // {
-    //     id:11,
-    //     title: "Cabins",
-    //     icon: AIRBNBicons.cabins
-    // },
-    // {
-    //     id:12,
-    //     title: "Campers",
-    //     icon: AIRBNBicons.campers
-    // },
-    // {
-    //     id:13,
-    //     title: "Camping",
-    //     icon: AIRBNBicons.camping
-    // },
-    // {
-    //     id:14,
-    //     title: "Casas Particulars",
-    //     icon: AIRBNBicons.casasParticulars
-    // },
-    // {
-    //     id:15,
-    //     title: "Castles",
-    //     icon: AIRBNBicons.castles
-    // },
+    {
+        id:7,
+        title: "Beach",
+        icon: AIRBNBicons.beach
+    },
+    {
+        id:8,
+        title: "Beach Front",
+        icon: AIRBNBicons.beachFront
+    },
+    {
+        id:9,
+        title: "Bed Breakfasts",
+        icon: AIRBNBicons.bedBreakfasts
+    },
+    {
+        id:10,
+        title: "Boats",
+        icon: AIRBNBicons.boats
+    },
+    {
+        id:11,
+        title: "Cabins",
+        icon: AIRBNBicons.cabins
+    },
+    {
+        id:12,
+        title: "Campers",
+        icon: AIRBNBicons.campers
+    },
+    {
+        id:13,
+        title: "Camping",
+        icon: AIRBNBicons.camping
+    },
+    {
+        id:14,
+        title: "Casas Particulars",
+        icon: AIRBNBicons.casasParticulars
+    },
+    {
+        id:15,
+        title: "Castles",
+        icon: AIRBNBicons.castles
+    },
     // {
     //     id:16,
     //     title: "Caves",

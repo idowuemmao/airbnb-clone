@@ -31,13 +31,3 @@ export default function Navbar(){
         </div>
     )
 }
-
-
-{/* <div className='flex  items-center shadow-lg justify-between '>
-<input type="search" placeholder='' className='relative border-2 bg-transparent ' />
-<div className='flex items-center absolute text-lg w-full '>
-    <button>Anywhere</button>
-    <button>Any week</button>
-    <button>Add guests</button>
-</div>
-</div> */}

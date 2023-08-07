@@ -50,6 +50,8 @@ export const windmills = `${ICON_PATH}/windmills.jpg`;
 export const yurts = `${ICON_PATH}/yurts.jpg`;
 export const treeHouse = `${ICON_PATH}/tree-house.jpg`;
 export const farms = `${ICON_PATH}/farms.jpg`;
+export const star = `${ICON_PATH}/Star.png`;
+
 
 
 
