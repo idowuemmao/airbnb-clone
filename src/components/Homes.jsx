@@ -18,7 +18,7 @@ const Homes = () => {
         )
     })
   return (
-    <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 px-8 md:px-12 lg:px-14'>
+    <div className='grid sm:grid-cols-2  lg:grid-cols-4 gap-8 px-8 md:px-12 lg:px-14'>
       {HomeElement}
     </div>
   )

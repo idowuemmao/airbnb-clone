@@ -12,8 +12,8 @@ export default function Filters(){
         )
     })
     return(
-        <div className="py-2 px-8 md:px-12 lg:px-14 h-24 shadow-lg flex justify-between items-center"> 
-            <div className="flex gap-8 items-center ">
+        <div className=" py-2 px-8 md:px-12 lg:px-14 h-24 shadow-lg flex justify-between items-center gap-4"> 
+            <div className="flex gap-8 items-center overflow-y-auto lg:w-11/12 md:w-4/5">
                 {filterIcons}
             </div>
             <div className="flex items-center gap-3 rounded-2xl px-4 py-2 border text-lg shadow-lg ">

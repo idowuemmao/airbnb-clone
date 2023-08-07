@@ -11,7 +11,7 @@ export default function Navbar(){
                 <h2 className='text-2xl font-bold text-[#ff5a60]'>airbnb</h2>
             </div>
             {/* middle */}
-            <div className='hidden md:flex  items-center text-base justify-between rounded-full p-2 border border-slate-400 px-6 font-semibold gap-4'>
+            <div className='hidden lg:flex  items-center text-base justify-between rounded-full p-2 border border-slate-400 px-6 font-semibold gap-4'>
                 <button >Anywhere</button>
                 <button className='border-x-2 px-2' >Any week</button>
                 <button className='text-gray-600/60'>Add guests</button>

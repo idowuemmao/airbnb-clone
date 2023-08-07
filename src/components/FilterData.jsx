@@ -76,36 +76,36 @@ const FilterIcons = [
         title: "Castles",
         icon: AIRBNBicons.castles
     },
-    // {
-    //     id:16,
-    //     title: "Caves",
-    //     icon: AIRBNBicons.caves
-    // },
-    // {
-    //     id:17,
-    //     title: "Chef Kitchen",
-    //     icon: AIRBNBicons.chefKitchen
-    // },
-    // {
-    //     id:18,
-    //     title: "Containers",
-    //     icon: AIRBNBicons.containers
-    // },
-    // {
-    //     id:19,
-    //     title: "Country Sides",
-    //     icon: AIRBNBicons.countrySides
-    // },
-    // {
-    //     id:20,
-    //     title: "Creative Spaces",
-    //     icon: AIRBNBicons.creativeSpaces
-    // },
-    // {
-    //     id:21,
-    //     title: "Cycladic Homes",
-    //     icon: AIRBNBicons.cycladicHomes
-    // },
+    {
+        id:16,
+        title: "Caves",
+        icon: AIRBNBicons.caves
+    },
+    {
+        id:17,
+        title: "Chef Kitchen",
+        icon: AIRBNBicons.chefKitchen
+    },
+    {
+        id:18,
+        title: "Containers",
+        icon: AIRBNBicons.containers
+    },
+    {
+        id:19,
+        title: "Country Sides",
+        icon: AIRBNBicons.countrySides
+    },
+    {
+        id:20,
+        title: "Creative Spaces",
+        icon: AIRBNBicons.creativeSpaces
+    },
+    {
+        id:21,
+        title: "Cycladic Homes",
+        icon: AIRBNBicons.cycladicHomes
+    },
 ]
 
 export default FilterIcons
