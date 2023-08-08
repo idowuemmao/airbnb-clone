@@ -1,7 +1,7 @@
 const ICON_PATH = '/assets/icons';
 
-export const aFrames = `${ICON_PATH}/a-frames.jpg`;
 export const logo = `${ICON_PATH}/airbnb.png`;
+export const aFrames = `${ICON_PATH}/a-frames.jpg`;
 export const adapted = `${ICON_PATH}/adapted.jpg`;
 export const amazingPools = `${ICON_PATH}/amazing-pool.jpg`;
 export const amazingViews = `${ICON_PATH}/amazing-views.jpg`;
@@ -22,10 +22,25 @@ export const containers = `${ICON_PATH}/containers.jpg`;
 export const countrySides = `${ICON_PATH}/country-sides.jpg`;
 export const creativeSpaces = `${ICON_PATH}/creative-spaces.jpg`;
 export const cycladicHomes = `${ICON_PATH}/cycladic-homes.jpg`;
+
 export const earthHomes = `${ICON_PATH}/earth-homes.jpg`;
 export const dammusi = `${ICON_PATH}/dammusi.jpg`;
 export const deserts = `${ICON_PATH}/deserts.jpg`;
 export const domes = `${ICON_PATH}/domes.jpg`;
+
+export const design = `${ICON_PATH}/design.jpg`;
+export const grandPiano = `${ICON_PATH}/grand-piano.jpg`;
+export const historicalHomes = `${ICON_PATH}/historical-homes.jpg`;
+export const houseBoats = `${ICON_PATH}/house-boats.jpg`;
+export const iconicCities = `${ICON_PATH}/iconic-cities.jpg`;
+export const lakeFront = `${ICON_PATH}/lake-front.jpg`;
+export const nationalPark = `${ICON_PATH}/national-park.jpg`;
+export const offTheGrid = `${ICON_PATH}/off-the-grid.jpg`;
+export const shepherdHut = `${ICON_PATH}/shepherd-hut.jpg`;
+export const skiInOut = `${ICON_PATH}/ski-in-out.jpg`;
+export const tinyHomes = `${ICON_PATH}/tiny-homes.jpg`;
+
+export const topOfTheWorld = `${ICON_PATH}/top-of-the-world.jpg`;
 export const golding = `${ICON_PATH}/golding.jpg`;
 export const hanoks = `${ICON_PATH}/hanoks.jpg`;
 export const islands = `${ICON_PATH}/islands.jpg`;

@@ -106,6 +106,66 @@ const FilterIcons = [
         title: "Cycladic Homes",
         icon: AIRBNBicons.cycladicHomes
     },
+    {
+        id:22,
+        title: "Design",
+        icon: AIRBNBicons.design
+    },
+    {
+        id:23,
+        title: "Grand Piano",
+        icon: AIRBNBicons.grandPiano
+    },
+    {
+        id:24,
+        title: "Historical Homes",
+        icon: AIRBNBicons.historicalHomes
+    },
+    {
+        id:25,
+        title: "House Boats",
+        icon: AIRBNBicons.houseBoats
+    },
+    {
+        id:26,
+        title: "Iconic Cities",
+        icon: AIRBNBicons.iconicCities
+    },
+    {
+        id:27,
+        title: "Lake Front",
+        icon: AIRBNBicons.lakeFront
+    },
+    {
+        id:28,
+        title: "National Park",
+        icon: AIRBNBicons.nationalPark
+    },
+    {
+        id:29,
+        title: "Off The Grid",
+        icon: AIRBNBicons.offTheGrid
+    },
+    {
+        id:30,
+        title: "Shephert Hut",
+        icon: AIRBNBicons.shepherdHut
+    },
+    {
+        id:31,
+        title: "Ski-in-out",
+        icon: AIRBNBicons.skiInOut
+    },
+    {
+        id:31,
+        title: "Top of The World",
+        icon: AIRBNBicons.topOfTheWorld
+    },
+    {
+        id:31,
+        title: "Tiny Homes",
+        icon: AIRBNBicons.tinyHomes
+    },
 ]
 
 export default FilterIcons
