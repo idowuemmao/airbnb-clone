@@ -12,7 +12,7 @@ export default function Filters(){
         )
     })
     return(
-        <div className=" py-2 px-8 md:px-12 lg:px-14 h-24 shadow-lg flex justify-between items-center gap-4"> 
+        <div className="fixed top-16 bg-white z-10 left-0 right-0 py-4 px-8 md:px-12 lg:px-14 h-auto border-b flex justify-between items-center gap-4"> 
             <div className="flex gap-8 items-center overflow-y-auto lg:w-11/12 md:w-4/5">
                 {filterIcons}
             </div>

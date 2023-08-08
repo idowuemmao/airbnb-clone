@@ -4,7 +4,7 @@ import { TbWorld, TbMenu2, TbUser, TbSearch } from 'react-icons/tb';
 
 export default function Navbar(){
     return(
-        <div className='shadow-xl flex items-center justify-between py-2 px-8 md:px-12 lg:px-14'>
+        <div className='fixed top-0 left-0 right-0 z-20 border-b flex items-center bg-white justify-between py-2 px-8 md:px-12 lg:px-14'>
             {/* left */}
             <div className='flex items-center gap-1'>
                 <img src={AIRBNBicons.logo} alt="airbnb-logo" className='w-8 object-contain'/>
