@@ -1,0 +1,2 @@
+
+This is a clone of the Airbnb website, built using React.js, Tailwind CSS, and React Router. The project aims to replicate the user interface and functionality of the Airbnb website, allowing users to browse and search for various accommodat
