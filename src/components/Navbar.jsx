@@ -4,14 +4,14 @@ import { TbWorld, TbMenu2, TbUser, TbSearch } from 'react-icons/tb';
 
 export default function Navbar(){
     return(
-        <div className='fixed top-0 left-0 right-0 z-20 border-b flex items-center bg-white justify-between py-2 px-8 md:px-12 lg:px-14'>
+        <div className='fixed top-0 left-0 right-0 z-20 border-b flex items-center bg-white justify-between md:justify-normal lg:justify-between py-2 px-8 md:px-12 lg:px-14'>
             {/* left */}
-            <div className='flex items-center gap-1'>
-                <img src={AIRBNBicons.logo} alt="airbnb-logo" className='w-8 object-contain'/>
-                <h2 className='text-2xl font-bold text-[#ff5a60]'>airbnb</h2>
+            <div className='flex items-center gap-1 '>
+                <img src={AIRBNBicons.logo} alt="airbnb-logo" className='hidden sm:flex w-8 object-contain cursor-pointer'/>
+                <h2 className='hidden  xl:flex text-2xl font-bold text-[#ff5a60] '>airbnb</h2>
             </div>
             {/* middle */}
-            <div className='hidden lg:flex  items-center text-base justify-between rounded-full p-2 border border-slate-400 px-6 font-semibold gap-4'>
+            <div className='flex items-center md:ml-4 xl:ml-0 w-full sm:w-auto justify-between  rounded-full p-2 border border-slate-200 shadow-lg px-6 font-semibold gap-4'>
                 <button >Anywhere</button>
                 <button className='border-x-2 px-2' >Any week</button>
                 <button className='text-gray-600/60'>Add guests</button>
@@ -20,7 +20,7 @@ export default function Navbar(){
                 </div>
             </div>
             {/* right */}
-            <div className='flex items-center justify-center text-base gap-8'>
+            <div className='hidden md:flex md:ml-auto xl:ml-0 items-center justify-center text-base gap-8'>
                 <p className='font-semibold'>Airbnb your home</p>
                 <TbWorld/>
                 <div className='flex items-center gap-2 rounded-full px-4 py-2 border text-xl shadow-lg'>

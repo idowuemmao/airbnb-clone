@@ -16,7 +16,7 @@ export default function Filters(){
             <div className="flex gap-8 items-center overflow-y-auto lg:w-11/12 md:w-4/5">
                 {filterIcons}
             </div>
-            <div className="flex items-center gap-3 rounded-2xl px-4 py-2 border text-lg shadow-lg ">
+            <div className="hidden md:flex items-center gap-3 rounded-2xl px-4 py-2 border text-lg shadow-lg ">
                 <GoFilter/>
                 <h2 className="text-lg">Filters</h2>
             </div>
