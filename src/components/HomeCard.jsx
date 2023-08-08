@@ -15,7 +15,7 @@ const HomeCard = ({img, title, distanceAway,rating,startDate,endDate,price}) => 
           };
   return (
     <div className='text-base relative'>
-      <img src={img} alt={title} className=' grid gap-2 object-cover md:max-h-40 max-h-32  w-full rounded-xl'/>
+      <img src={img} alt={title} className='grid gap-2 object-fit h-72 w-full rounded-xl'/>
       <button className='absolute top-2 right-2' onClick={handleToggle1}>
         {favorite ? <BsHeartFill/> : <BsHeart/>}
       </button>

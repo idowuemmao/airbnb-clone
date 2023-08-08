@@ -3,11 +3,11 @@ import { TbWorld, TbCopyright } from 'react-icons/tb';
 
 const Footer = () => {
   return (
-    <div className='fixed bg-white w-full bottom-0 flex border-t-2 items-center justify-between py-4 px-8 md:px-12 lg:px-14'>
+    <div className='fixed bg-white w-full bottom-0 flex border-t-2 items-center text-[0.m] lg:text-xs xl:text-base justify-between py-4 px-8 md:px-12 lg:px-14'>
         {/* left */}
-        <div className='flex  items-center gap-4 font-extralight'>
-            <p className='flex items-center gap-2'> <TbCopyright/> 2022 Airbnb, Inc.</p>
-            <ul className='flex items-center gap-8 list-disc mx-4'>
+        <div className='flex items-center gap-4 '>
+            <p className='flex items-center gap-2'> <TbCopyright className='text-xl'/> 2022 Airbnb, Inc.</p>
+            <ul className='hidden lg:flex items-center gap-2 md:gap-8 list-disc list-inside mx-4'>
                 <li>Terms</li>
                 <li>Sitemap</li>
                 <li>Privacy</li>
@@ -16,7 +16,7 @@ const Footer = () => {
             </ul>
         </div>
         {/* right */}
-        <div className='flex items-center font-semibold gap-4'>
+        <div className='hidden sm:flex items-center font-semibold gap-4'>
             <TbWorld/>
             <p>English (US) </p>
             <p>$ USD</p>

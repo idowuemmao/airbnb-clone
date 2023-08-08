@@ -32,7 +32,7 @@ const Homes = () => {
             <button onClick={handleToggle} className='text-5xl ml-auto text-gray-400'>{toggle ? <BsToggleOff className='border-none'/> : <BsToggleOn/>}</button> 
             </div>
         </div>
-        <div className='grid sm:grid-cols-2 pt-1 lg:grid-cols-4 gap-8'>{HomeElement}</div>
+        <div className='grid sm:grid-cols-2 pt-1 lg:grid-cols-4 gap-8 mb-36'>{HomeElement}</div>
     </div>
   )
 }
