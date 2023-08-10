@@ -13,7 +13,7 @@ export default function Filters(){
     })
     return(
         <div className="fixed top-[4.5rem] bg-white z-10 left-0 right-0 py-4 px-8 md:px-12 lg:px-14 h-auto border-b flex justify-between items-center gap-4"> 
-            <div className="flex gap-8 items-center overflow-y-auto lg:w-11/12 md:w-4/5">
+            <div className="flex gap-8 items-center overflow-y-auto scrollbar-hide lg:w-11/12 md:w-4/5">
                 {filterIcons}
             </div>
             <div className="hidden md:flex items-center gap-3 rounded-2xl px-4 py-2 border text-lg shadow-lg ">
