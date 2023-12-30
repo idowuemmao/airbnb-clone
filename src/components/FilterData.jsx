@@ -157,12 +157,12 @@ const FilterIcons = [
     icon: AIRBNBicons.skiInOut,
   },
   {
-    id: 31,
+    id: 32,
     title: "Top of The World",
     icon: AIRBNBicons.topOfTheWorld,
   },
   {
-    id: 31,
+    id: 33,
     title: "Tiny Homes",
     icon: AIRBNBicons.tinyHomes,
   },
